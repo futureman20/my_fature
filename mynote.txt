@@ -2,6 +2,7 @@
 密码：1413014046.whj
 
 分支连接：https://github.com/futureman20/Four_rotor_aircraft.git
+https://github.com/futureman20/my_fature.git
 
 
 git配置邮箱和用户名（作用：识别代码提交身份）：
