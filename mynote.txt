@@ -11,20 +11,28 @@ git配置邮箱和用户名（作用：识别代码提交身份）：
 2、git命令
 
 
-创建分支：		git branch “xxx”
+#创建分支：		git branch “xxx”
 创建并切换新分支：	git checkout -b “xxx”
 
-查看当前状态：		git status		//可以看到已经被修改的文件
+#查看当前状态：		git status		//可以看到已经被修改的文件
 
-提交代码，将代码添加到缓冲区：		git add
+#提交代码，将代码添加到缓冲区：		git add
 			|-->git add .		//提交所有修改文件
 			|-->git add xxx		//提交特定文件
 
-提交代码到本地库：	git commit -m "commit提示信息"
+#提交代码到本地库：	git commit -m "commit提示信息"
 
-更新本地代码：	  	git  pull origin 远端分支名
-提交代码：	  	git push origin 远端分支	//强制推送远端加-f
+#更新本地代码：	  	git  pull origin 远端分支名
+#提交代码：	  	git push origin 远端分支	//强制推送远端加-f
+			
+			git push -u origin 远端分支	//-u：指定origin为默认主机
+#回退commit提交：	
+1、git log --oneline		//查看log的节点信息
+2、回退版本
+	1)、git reset --soft [commit id]	//软回退，将commit回退，不删除commit修改
+	1)、git reset --hard [commit id]	//硬回退，将commit回退，并删除commit修改
 
-回退commit提交：	git reset --hard [commit id]
+#删除分支：		git branch -d “xxx”
 
-删除分支：		git branch -d “xxx”
+
+
