@@ -1,3 +1,5 @@
+一、git
+
 1、我的github用户名：futureman20
 密码：1413014046.whj
 
@@ -34,6 +36,24 @@ git配置邮箱和用户名（作用：识别代码提交身份）：
 	1)、git reset --hard [commit id]	//硬回退，将commit回退，并删除commit修改
 
 #删除分支：		git branch -d “xxx”
+
+二、source insight
+1、source insight安装
+https://www.cnblogs.com/hyxk/p/11265483.html
+
+2、source insight创建工程
+https://blog.csdn.net/qq_41960196/article/details/86636713
+
+
+2020-08-10
+
+c/c++源码网站资料
+https://www.cnblogs.com/sunliming/archive/2011/05/06/2039505.html
+
+
+PostgreSql源码搭建：
+https://www.jianshu.com/p/e78cb70d0286
+
 
 
 

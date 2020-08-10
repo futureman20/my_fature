@@ -1,3 +1,9 @@
 一、vscode
 
 同步代码到服务器：https://blog.csdn.net/qq_39187019/article/details/90045064
+
+
+二、数据库
+
+1、PostgreSQL 7.3.3 教程
+https://docs.huihoo.com/postgresql/pgsql-doc-7.3/index.html
